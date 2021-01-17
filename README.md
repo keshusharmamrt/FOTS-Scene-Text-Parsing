@@ -13,9 +13,8 @@ DataSet used:
                          d.ch4_test_images:- This directory contains 500 test images.<br/>
 
 2. SyntText Dataset :- To Avoid overfitting in Text Recognition Branch because of small set of 4468 images in ICDAR 2015 dataset we have also make use of 130000 images from                          SyntText Dataset
-Here we have 2 notebooks:-<br/>
+Here we have 1 notebook:-<br/>
 1. FOTS_Scene_Text_Parsing.ipynb<br/>
-2. FOTSModelDeployment.ipynb
 
 <b>FOTS_Scene_Text_Parsing.ipynb</b><br/>
 This Notebook contains entire Implementation of FOTS Model.
@@ -35,9 +34,6 @@ Here we have trained both Text Detection and Text Recognition branch seperately 
 
 
 In This Notebook we have also  discussed about Several Post Training Quantization that we have done for out Model and how these Quantization techniques impact on model size, latency of model etc.
-
-<b>FOTS_Scene_Text_Parsing.ipynb</b><br/>
-In This Notebook I have written code to make Our Model Deployment by using streamlit in google colaboratory.
 
 References For Code:-<br/>
 [1]. https://github.com/Pay20Y/FOTS_TF <br/>
